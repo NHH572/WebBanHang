@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+
+form {
+	width: 600px;
+	margin: 100px auto;
+	border: 2px solid darkslategrey;
+	box-shadow: 2px 2px 1px darkcyan;
+	border-radius: 5px;
+	font-size: 1.2em;
+}
+
+label {
+	width: 120px;
+	display: inline-block;
+}
+
+input[id], textarea {
+	padding: 8px;
+	width: 420px;
+}
+
+select {
+	padding: 8px;
+	width: 440px;
+}
+
+span {
+	padding: 8px;
+}
+
+button {
+	width: 140px;
+	height: 40px;
+	border: none;
+}
+.btn-create{background-color:blue }
+.btn-update{background-color:yellow }
+.btn-delete{background-color:red }
+.btn-reset{background-color:green }
+p {
+	margin-left: 15px;
+}
+table, th, td{
+            border:1px solid #868585;
+        }
+        table{
+            border-collapse:collapse;
+            width:100%;
+        }
+        th, td{
+            text-align:left;
+            padding:10px;
+        }
+        table tr:nth-child(odd){
+            background-color:#eee;
+        }
+        table tr:nth-child(even){
+            background-color:white;
+        }
+        table tr:nth-child(1){
+            background-color:skyblue;
+        }

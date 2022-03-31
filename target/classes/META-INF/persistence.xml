@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
+             version="2.2">
+    <persistence-unit name="webbanhang">
+
+        <class>com.example.models.CategoryEntity</class>
+        <class>com.example.models.FeedbackEntity</class>
+        <class>com.example.models.GaleryEntity</class>
+        <class>com.example.models.OdersEntity</class>
+        <class>com.example.models.OrderDetailsEntity</class>
+        <class>com.example.models.ProductEntity</class>
+        <class>com.example.models.RoleEntity</class>
+        <class>com.example.models.UsersEntity</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:sqlserver://localhost:1433;database=WEBBANHANG"/>
+            <property name="hibernate.connection.driver_class" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+            <property name="hibernate.connection.username" value="sa"/>
+            <property name="hibernate.connection.password" value="admin"/>
+            <property name=" hibernate.show_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>
